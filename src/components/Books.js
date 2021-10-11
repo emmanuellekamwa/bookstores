@@ -14,3 +14,5 @@ Books.propTypes = {
   name: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
 };
+
+export default Books;
