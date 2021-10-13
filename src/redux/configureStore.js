@@ -2,6 +2,7 @@
 
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import logger from 'redux-logger';
+import thunk from 'redux-thunk';
 import booksReducer from './books/Books';
 
 const reducer = combineReducers({
@@ -10,7 +11,7 @@ const reducer = combineReducers({
 
 const store = createStore(
   reducer,
-  applyMiddleware(logger),
+  applyMiddleware(thunk, logger),
 );
 
 export default store;
