@@ -4,7 +4,7 @@ import { Route, Switch } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import Navbar from './components/Navbar';
 import store from './redux/configureStore';
-import AllBooks from './components/BookList';
+import AllBooks from './components/bookList';
 import Categories from './components/Categories';
 
 function App() {
