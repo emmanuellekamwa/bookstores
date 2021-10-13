@@ -1,3 +1,5 @@
+/* eslint-disable import/extensions */
+
 import { Route, Switch } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import Navbar from './components/Navbar';
