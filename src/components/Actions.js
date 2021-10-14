@@ -1,3 +1,5 @@
+/* eslint-disable import/extensions */
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
