@@ -21,6 +21,7 @@ const BookAdd = () => {
     title,
     category,
   };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (title && category) {
@@ -32,8 +33,8 @@ const BookAdd = () => {
   };
 
   return (
-    <section>
-      <h2>Add a new book here</h2>
+    <section className="form-section">
+      <h2>Add New Book</h2>
 
       <form className="form" onSubmit={handleSubmit}>
         <input
@@ -54,4 +55,5 @@ const BookAdd = () => {
     </section>
   );
 };
+
 export default BookAdd;
