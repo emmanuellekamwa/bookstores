@@ -7,6 +7,8 @@
 - React
 - Redux
 
+![screenshot](./bookstore.jpg)
+
 ## Getting Started 
 To have this project on your local machine, just follow these steps
 
