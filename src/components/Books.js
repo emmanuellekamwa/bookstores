@@ -2,7 +2,7 @@
 
 import { React, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { getBooks } from '../redux/books/Books';
+import { getBooks } from '../redux/books/books';
 import BookList from './bookList';
 import BookAdd from './BookAdd';
 
