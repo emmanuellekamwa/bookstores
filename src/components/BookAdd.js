@@ -3,7 +3,7 @@
 import { React, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
-import { postBooks } from '../redux/books/Books';
+import { postBooks } from '../redux/books/books';
 
 const categories = ['Choose a Category', 'Action', 'Action and Adventure', 'Drama', 'Mystery', 'Children Books', 'Romance', 'Comedy', 'Finances', 'Accounting', 'Novel', 'Horror', 'Science', 'Health', 'History', 'Business'];
 
